@@ -9,7 +9,7 @@ body {
 
 .container-principal {
     display: block;
-    width: 100vw;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -26,7 +26,7 @@ header{
     background: #ccc;
     display: block;
     float: left;
-    padding: 20px;
+    padding: 20px 0;
     width: 100%;
     border-bottom: 1px solid #454545;
 }
@@ -93,7 +93,7 @@ section{
     display: block;
     float: left;
     font-size: 1.5rem;
-    padding: 20px;
+    padding: 20px 0;
     width: 100%;
 }
 
@@ -132,7 +132,7 @@ footer{
     background-color: #454545;
     display: block;
     float: left;
-    padding: 20px;
+    padding: 20px 0;
     width: 100%;
 }
 
@@ -151,12 +151,18 @@ footer small{
     overflow: hidden !important;
 }
 
-@media (min-width:426px){
+@media (max-width:850px){
     section nav,
     section article {
         width: 100%;
         text-align: center;
-    } 
+    }
+
+    p{
+        line-height: 1.8rem;
+        color: #454545;
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 425px) {
@@ -169,5 +175,9 @@ footer small{
         padding-left: 1%;
         padding-right: 1%;
     }
-
+    p{
+        line-height: 1.8rem;
+        color: #454545;
+        margin-bottom: 20px;
+    }
 }
