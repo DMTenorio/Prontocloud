@@ -1,0 +1,173 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: rgb(241, 241, 241);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container-principal {
+    display: block;
+    width: 100vw;
+    margin: 0 auto;
+}
+
+.container-section{
+    display: block;
+    float: left;
+    padding: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+header{
+    background: #ccc;
+    display: block;
+    float: left;
+    padding: 20px;
+    width: 100%;
+    border-bottom: 1px solid #454545;
+}
+h1{
+    font-size: 2.2rem;
+    color: #454545;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 2rem;
+    color: #454545;
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 1.8rem;
+    color: #454545;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+h4 {
+    font-size: 1.6rem;
+    color: #454545;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+p{
+    line-height: 1.4rem;
+    color: #454545;
+    margin-bottom: 20px;
+}
+
+img{
+    max-width: 100%;
+   height: auto;
+}
+
+.container-section2{
+    background-color: rgb(202, 202, 202);
+    width: 100%;
+}
+
+.container-section2 form,
+.cog-form__content {
+    background-color: rgb(202, 202, 202) !important;
+}
+
+.cog-cognito--styled .cog-button--primary, html .cog-cognito--styled .cog-page__navigation .cog-button, :root:root:root:root:root .cog-cognito--styled .cog-button--primary, :root:root:root:root:root .cog-cognito--styled .cog-page__navigation .cog-button{
+    background-color: #8d8a8a;
+    border: 1px solid #ccc;
+}
+ol {
+    margin-left: 30px;
+}
+
+ol li{
+    font-size: 1.4rem;
+    color: #8d8a8a;
+}
+
+section{
+    background-color: white;
+    display: block;
+    float: left;
+    font-size: 1.5rem;
+    padding: 20px;
+    width: 100%;
+}
+
+section nav{
+    display: block;
+    float: left;
+    width: 30%;
+}
+
+nav li{
+    background-color: #8d8a8a;
+    margin: 1px 20px 1px 0;
+    padding: 10px;
+}
+
+nav li:hover{
+    background-color: #454545;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(186, 230, 250);
+}
+
+nav a:hover {
+    color: rgb(110, 190, 255);
+}
+
+section article{
+    display: block;
+    float: left;
+    width: 70%;
+}
+
+footer{
+    background-color: #454545;
+    display: block;
+    float: left;
+    padding: 20px;
+    width: 100%;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 1.4rem;
+}
+
+footer small{
+    font-size: 80%;
+    display: block;
+}
+
+.cognito {
+    height: 430px !important;
+    overflow: hidden !important;
+}
+
+@media (min-width:426px){
+    section nav,
+    section article {
+        width: 100%;
+        text-align: center;
+    } 
+}
+
+@media (max-width: 425px) {
+    section nav,
+    section article {
+        width: 100%;
+    }  
+
+    .container {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+}
